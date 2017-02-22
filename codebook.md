@@ -24,10 +24,10 @@ Notes
 Dimensions
 </td>
 <td style="text-align:left; white-space: nowrap;">
-180 rows<br> 68 columns
+180 rows 68 columns
 </td>
 <td style="text-align:left;">
-66 Variables and 2 Identifier columns in 180 rows representing one observation of a subject one activity
+66 Variables and 2 Identifier columns in 180 rows representing one observation of one subject and one activity
 </td>
 </tr>
 <tr>
@@ -38,7 +38,7 @@ Identifiers
 <code>Subject</code> <code>Activity</code>
 </td>
 <td style="text-align:left;">
-Identifier columns for the subject and the activity the subject performed.&lt;br&gt;<code>Subject</code>: Integer from 1 to 30.&lt;br&gt;<code>Activities</code>: Walking, Walking Upstairs, Walking Downstairs, Sitting, Standing, Lying Down
+Identifier columns for the subject and the activity the subject performed.<br><code>Subject</code>: Integer from 1 to 30. <br><code>Activities</code>: Walking, Walking Upstairs, Walking Downstairs, Sitting, Standing, Lying Down
 </td>
 </tr>
 <tr>
