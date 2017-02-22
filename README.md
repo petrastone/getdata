@@ -32,7 +32,7 @@ This is a tidy data set because it conforms to the requirements of each variable
 You can load the script's output with:
 
 <pre>
-<code>tidyData <- read.csv("tidyData.csv")</code>
+<code>tidyData <- read.table("tidyData.txt", header=T)</code>
 </pre>
 
 ## Codebook

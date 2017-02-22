@@ -125,5 +125,10 @@
     head( tidyData )
     names( tidyData)
     
-    # Write out csv file
-    write.csv(tidyData,"tidyData.csv", row.names = F)
+    # Write out .txt file
+    write.table(tidyData, "tidyData.txt", row.names = F)
+    
+    # Check the output can be read back in OK
+    tidyDataCheck <- read.table("tidyData.txt", header=T)
+    str(tidyDataCheck)
+    
