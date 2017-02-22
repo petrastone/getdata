@@ -23,11 +23,11 @@ Notes
 <td style="text-align:left;">
 Dimensions
 </td>
-<td style="text-align:left;">
-180 rows x 68 columns
+<td style="text-align:left; white-space: nowrap;">
+180 rows<br> 68 columns
 </td>
 <td style="text-align:left;">
-66 Variables and 2 Identifier columns
+66 Variables and 2 Identifier columns in 180 rows representing one observation of a subject one activity
 </td>
 </tr>
 <tr>
@@ -159,9 +159,7 @@ Calculated using the Euclidean norm
 <td style="text-align:left;">
 Measurement taken along the X, Y or Z axis of the accelerometer and gyro
 </td>
-<td style="text-align:left;">
-<ul>
-<li></td>
+<td style="text-align:left;">-</td>
 </tr>
 <tr>
 <td style="text-align:left;">
@@ -203,8 +201,7 @@ MeanOf
 <td style="text-align:left;">
 Mean by group (person and activity)
 </td>
-<td style="text-align:left;">-
-</td>
+<td style="text-align:left;">-</td>
 </tr>
 </tbody>
 </table>
