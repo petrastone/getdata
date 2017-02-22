@@ -18,19 +18,19 @@ The dataset consists of recordings of accelerometer and gyroscope readings from 
 
 ## What the script does
 * `run_analysis.R` loads the training and test data and merges them into a dataframe `data`.
-* Column names are extracted from `features.txt`, made unique and applied to `data`  (see [codebook.Rmd](codebook.Rmd) )
+* Column names are extracted from `features.txt`, made unique and applied to `data`  (see [codebook.md](codebook.md) )
 * A smaller subset `data2` only containing variables measuring mean and standard deviation is extracted
 * The `activity` variable is given descriptive labels to replace codes supplied in the raw data.
-* The column names of `data2` are cleaned and made more consistent (see [codebook.Rmd](codebook.Rmd) )
+* The column names of `data2` are cleaned and made more consistent (see [codebook.md](codebook.md) )
 * A new tidy dataframe `tidyData` is created. 
-* `tidyData` summarises `data2` by `subject` and `activity` giving the mean of each variable (see ([codebook.Rmd](codebook.Rmd)).
+* `tidyData` summarises `data2` by `subject` and `activity` giving the mean of each variable (see ([codebook.md](codebook.md)).
 * In order to make it clear that `tidyData` contains averages (sometimes of averages) `meanOf` is appended to the column names.
 
 ## Tidy Data
 This is a tidy data set because it conforms to the requirements of each variable forming a column, each observation forming a row and being a single table for each type of observation.
 
 ## Codebook
- Information on variable names [codebook.Rmd](codebook.Rmd)
+ Information on variable names [codebook.md](codebook.md)
 
 
 ## Assumptions
