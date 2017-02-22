@@ -1,12 +1,8 @@
 ---
-title: "README.Rmd"
+title: "README.md"
 author: "Petra Stone"
 date: "2/22/2017"
 output: html_document
-bibliography: bibliography.bibtex
-link-citations: true
-nocite: | 
-  @Lichman:2013, @JSSv059i10
 ---
 
 ### Data Cleaning of HAR Data
@@ -50,3 +46,15 @@ TODO
 
 
 ## References
+<div id="refs" class="references">
+<div id="ref-jorge_esann2013_2">
+<p>Anguita, D., A. Ghio, L. Oneto, X. Parra, and J. L. Reyes-Ortiz. 2013. “A Public Domain Dataset for Human Activity Recognition Using Smartphones.”</p>
+</div>
+<div id="ref-Lichman:2013">
+<p>Lichman, M. 2013. “UCI Machine Learning Repository.” University of California, Irvine, School of Information and Computer Sciences. <a href="http://archive.ics.uci.edu/ml" class="uri">http://archive.ics.uci.edu/ml</a>.</p>
+</div>
+<div id="ref-JSSv059i10">
+<p>Wickham, Hadley. 2014. “Tidy Data.” <em>Journal of Statistical Software</em> 59 (1): 1–23. doi:<a href="https://doi.org/10.18637/jss.v059.i10">10.18637/jss.v059.i10</a>.</p>
+</div>
+</div>
+</div>

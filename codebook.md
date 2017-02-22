@@ -3,10 +3,6 @@ title: "Code Book"
 author: "Petra Stone"
 date: "2/22/2017"
 output: html_document
-bibliography: bibliography.bibtex
-link-citations: true
-nocite: | 
-  @jorge_esann2013_2
 ---
 
 ### Summary of `tidyData.txt`
@@ -779,3 +775,8 @@ Variables
 </table>
 
 ### References
+<div id="refs" class="references">
+<div id="ref-jorge_esann2013_2">
+<p>Anguita, D., A. Ghio, L. Oneto, X. Parra, and J. L. Reyes-Ortiz. 2013. “A Public Domain Dataset for Human Activity Recognition Using Smartphones.”</p>
+</div>
+</div>

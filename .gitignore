@@ -43,3 +43,4 @@ vignettes/*.pdf
 scratch/
 *.html
 UCI HAR Dataset/
+*.Rmd
