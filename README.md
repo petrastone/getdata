@@ -11,7 +11,8 @@ nocite: |
 
 ### Data Cleaning of HAR Data
 
-The data for this study came from [HAR Using Smartphones](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones). \cite{@jorge_esann2013_2}
+The data for this study came from [HAR Using Smartphones](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
+[@jorge_esann2013_2]
 
 The objective of this course project is to use the principles of "Tidy data" as outlined in Hadley Wickham's paper [@JSSv059i10]:
 
