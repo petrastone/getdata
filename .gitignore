@@ -41,3 +41,5 @@ vignettes/*.pdf
 
 # Files not to check in
 scratch/
+*.html
+UCI HAR Dataset/
