@@ -1,9 +1,11 @@
-### Data Cleaning of HAR Data
+# README
+
+# Data Cleaning of HAR Data
 
 The data for this study came from [HAR Using Smartphones](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
-[@jorge_esann2013_2]
+[Anguita et al, 2013](#har)
 
-The objective of this course project is to use the principles of "Tidy data" as outlined in Hadley Wickham's paper [@JSSv059i10]:
+The objective of this course project is to use the principles of "Tidy data" as outlined in [Wickham, 2014](#hadley):
 
  1. Each variable forms a column
  2. Each observation forms a row
@@ -12,7 +14,7 @@ The objective of this course project is to use the principles of "Tidy data" as 
 Data will be loaded and tidied according to the above principles and a new tidy data set summarising the means of selected variables grouped by person and activity will be written out by `run_analysis.R`.
  
 ## Background of HAR Study
-The dataset consists of recordings of accelerometer and gyroscope readings from 30 subjects performing activities of daily living while carrying a waist-mounted smartphone with embedded inertial sensors. [@jorge_esann2013_2]
+The dataset consists of recordings of accelerometer and gyroscope readings from 30 subjects performing activities of daily living while carrying a waist-mounted smartphone with embedded inertial sensors. [Anguita et al, 2013](#har)
 
 ## What the script does
 * `run_analysis.R` loads the training and test data and merges them into a dataframe `data`.
@@ -25,7 +27,7 @@ The dataset consists of recordings of accelerometer and gyroscope readings from 
 * In order to make it clear that `tidyData` contains averages (sometimes of averages) `meanOf` is appended to the column names.
 
 ## Tidy Data
-TODO
+This is a tidy data set because it conforms to the requirements of each variable forming a column, each observation forming a row and being a single table for each type of observation.
 
 ## Codebook
  Information on variable names [codebook.Rmd](codebook.Rmd)
@@ -40,13 +42,14 @@ TODO
 
 ## References
 <div id="refs" class="references">
-<div id="ref-jorge_esann2013_2">
+<div id="har">
 <p>Anguita, D., A. Ghio, L. Oneto, X. Parra, and J. L. Reyes-Ortiz. 2013. “A Public Domain Dataset for Human Activity Recognition Using Smartphones.”</p>
 </div>
 <div id="ref-Lichman:2013">
 <p>Lichman, M. 2013. “UCI Machine Learning Repository.” University of California, Irvine, School of Information and Computer Sciences. <a href="http://archive.ics.uci.edu/ml" class="uri">http://archive.ics.uci.edu/ml</a>.</p>
 </div>
 <div id="ref-JSSv059i10">
+<a id="hadley"></a>
 <p>Wickham, Hadley. 2014. “Tidy Data.” <em>Journal of Statistical Software</em> 59 (1): 1–23. doi:<a href="https://doi.org/10.18637/jss.v059.i10">10.18637/jss.v059.i10</a>.</p>
 </div>
 </div>

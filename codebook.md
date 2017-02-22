@@ -1,32 +1,67 @@
+# Code Book
+
 ### Summary of `tidyData.txt`
 
 This data set presents the means for 66 variables from the original data set grouped by subject and activity.
-The original data set [@jorge_esann2013_2] was based on 30 subjects performing activities of daily living while carrying a waist-mounted smartphone with embedded inertial sensors.
+The original data set [Anguita et al, 2013](#har) was based on 30 subjects performing activities of daily living while carrying a waist-mounted smartphone with embedded inertial sensors.
 
 <table class="table">
-<caption>Some examples of interpreting variable names</caption>
 <thead>
-<tr class="header">
-<th align="left">Variable</th>
-<th align="left">Description</th>
+<tr>
+<th style="text-align:left;">
+</th>
+<th style="text-align:left;">
+Info
+</th>
+<th style="text-align:left;">
+Notes
+</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
-<td align="left"><code>MeanOfBodyAccelMeanZ</code></td>
-<td align="left">Mean (by Subject and Activity) of Mean of Body acceleration on the Z axis.</td>
+<tr>
+<td style="text-align:left;">
+Dimensions
+</td>
+<td style="text-align:left;">
+180 rows x 68 columns
+</td>
+<td style="text-align:left;">
+66 Variables and 2 Identifier columns
+</td>
 </tr>
-<tr class="even">
-<td align="left"><code>MeanOfGravityAccelMagtdStd</code></td>
-<td align="left">Mean (by Subject and Activity) of Standard deviation of Gravity acceleration magnitude</td>
+<tr>
+<td style="text-align:left;">
+Identifiers
+</td>
+<td style="text-align:left;">
+<code>Subject</code> <code>Activity</code>
+</td>
+<td style="text-align:left;">
+Identifier columns for the subject and the activity the subject performed.&lt;br&gt;<code>Subject</code>: Integer from 1 to 30.&lt;br&gt;<code>Activities</code>: Walking, Walking Upstairs, Walking Downstairs, Sitting, Standing, Lying Down
+</td>
 </tr>
-<tr class="odd">
-<td align="left"><code>MeanOfBodyGyroJerkMeanX</code></td>
-<td align="left">Mean (by Subject and Activity) of Mean of Jerk signal on X axis (originally derived from both accel and gyro sensors)</td>
+<tr>
+<td style="text-align:left;">
+Observations
+</td>
+<td style="text-align:left;">
+180
+</td>
+<td style="text-align:left;">
+Each observation (row) is a combination of subject and one of the 6 activities for 30 subjects
+</td>
 </tr>
-<tr class="even">
-<td align="left"><code>MeanOfBodyAccelStdYFFT</code></td>
-<td align="left">Mean (by Subject and Activity) of Mean of Body acceleration on the Y axis with a fast fourier transform</td>
+<tr>
+<td style="text-align:left;">
+Variables
+</td>
+<td style="text-align:left;">
+66
+</td>
+<td style="text-align:left;">
+Each variable (column) is the mean of 66 variables extracted from the original data set
+</td>
 </tr>
 </tbody>
 </table>
@@ -769,7 +804,7 @@ Variables
 
 ### References
 <div id="refs" class="references">
-<div id="ref-jorge_esann2013_2">
+<div id="har">
 <p>Anguita, D., A. Ghio, L. Oneto, X. Parra, and J. L. Reyes-Ortiz. 2013. “A Public Domain Dataset for Human Activity Recognition Using Smartphones.”</p>
 </div>
 </div>
