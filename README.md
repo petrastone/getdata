@@ -1,10 +1,3 @@
----
-title: "README.md"
-author: "Petra Stone"
-date: "2/22/2017"
-output: html_document
----
-
 ### Data Cleaning of HAR Data
 
 The data for this study came from [HAR Using Smartphones](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).

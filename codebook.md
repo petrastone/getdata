@@ -1,10 +1,3 @@
----
-title: "Code Book"
-author: "Petra Stone"
-date: "2/22/2017"
-output: html_document
----
-
 ### Summary of `tidyData.txt`
 
 This data set presents the means for 66 variables from the original data set grouped by subject and activity.
