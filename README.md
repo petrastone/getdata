@@ -29,6 +29,12 @@ The dataset consists of recordings of accelerometer and gyroscope readings from 
 ## Tidy Data
 This is a tidy data set because it conforms to the requirements of each variable forming a column, each observation forming a row and being a single table for each type of observation.
 
+You can load the script's output with:
+
+<pre>
+<code>tidyData <- read.csv("tidyData.csv")</code>
+</pre>
+
 ## Codebook
  Information on variable names [codebook.md](codebook.md)
 
