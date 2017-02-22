@@ -6,6 +6,10 @@
     # Appropriately labels the data set with descriptive variable names.
     # From the data set in step 4, creates a second, independent tidy data set 
     # with the average of each variable for each activity and each subject.
+
+    # Necessary packages
+    require(rapportools)
+    require(dplyr)
     
     # Values of the 561 Features (561 cols)
     data.train.features <- read.table('UCI HAR Dataset/train/X_train.txt')
@@ -98,8 +102,7 @@
     names( data2 ) <- gsub("^(fBody)(.*)", "fftBody\\2", names(data2) )
     # move FFT to end to allow comparison of FFTs and original measurements
     names( data2 ) <- gsub("^(fft)(.*)", "\\2FFT", names(data2) )
-    
-    require(rapportools)
+
     data.frame( 
         oldNames=names(data),
         newNames= names(data2),
